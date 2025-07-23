@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="home">
+        <div class="navbar">
+            <!-- <img src="./Assets/logo1.png" alt="this is an encrypted message"> -->
+            <div class="items">
+                <div class="Home"><a href="index.html">Home</a></div>
+                <div class="aboutus"><a href="about.html">About us</a></div>
+                <div class="Contact"><a href="contact.html">Contact</a></div>
+                <div class="account"><a href="login.html">Logout</a></div>
+            </div>
+            <i class="fa-solid fa-bars" id="jyo" onclick="fun()"></i>
+        </div>
+    </div>
+    <main>
+        <section class="contact-form">
+            <h1>Get in touch</h1>
+            <p>We are here for you! How can we help?</p>
+            <form>
+                <label for="name" class="lab">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email" class="lab">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message" class="lab">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit" onclick="submitSuccess()">Submit</button>
+            </form>
+        </section>
+        <section class="imagecontact">
+            <img src="./Assets/contact.png" alt="">
+            <!-- Social icons (unchanged) -->
+            <!-- ... -->
+        </section>
+    </main>
+    <div class="sidebar" id="sidebar">
+        <div class="navbar" id="navbar">
+            <i class="fa-solid fa-xmark" id="crossmark" onclick="jyo1()" style="color: #000000;"></i>
+            <img src="./Assets/Logo.png" alt="this is an encrypted message">
+            <div class="items">
+                <div class="Home"><a href="index.html">Home</a></div>
+                <div class="aboutus"><a href="about.html">About us</a></div>
+                <div class="Contact"><a href="contact.html">Contact</a></div>
+                <div class="account"><a href="login.html">Logout</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>
