@@ -3,17 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About us</title>
+	<title>About Us</title>
 	<link rel="stylesheet" href="about.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
+	<!-- Top Navbar -->
 	<div class="home">
 		<div class="navbar">   
-			<img src="Assests/rblogo3.png" alt="this is an encrypted message"> 
+			<img src="Assests/rblogo3.png" alt="Logo"> 
 			<div class="items">
 				<div class="Home"><a href="index.html">Home</a></div>
-				<div class="aboutus"><a href="about.html">About us</a></div>
+				<div class="aboutus"><a href="about.html">About Us</a></div>
 				<div class="Contact"><a href="ContactPage/contact.html">Contact</a></div>
 				<div class="accounts"><a href="login/loginpage.html">Logout</a></div>
 			</div>
@@ -21,6 +22,7 @@
 		</div> 
 	</div>
 
+	<!-- Team Member Buttons -->
 	<div class="about" id="about">
 		<div class="buttons">
 			<div class="uiverse" onclick="SDP()">
@@ -44,20 +46,21 @@
 				<span>Team Member 4</span>
 			</div>
 			<div class="uiverse" onclick="Venkatateja()">
-				<span class="tooltip" id="vk">Venkata teja</span>
+				<span class="tooltip" id="vk">Venkata Teja</span>
 				<span>Team Member 5</span>
 			</div>
 		</div>
 
+		<!-- Team Member Card Info -->
 		<div class="card">
 			<div class="leftimage">
-				<img src="Assests/Yaayprofile.jpg" id="leftimage">
+				<img src="Assests/Yaayprofile.jpg" alt="Team Member" id="leftimage">
 			</div>
 			<div class="rightdescription">
 				<p class="teamname" id="teamname">Byte Brigaders</p>
 				<p class="memberdesignation" id="memberdesignation">Team Lead</p>
-				<p class="name"><i class="fa-regular fa-id-card"></i>&nbsp;&nbsp;<span id="name">Name : Vinay </span></p>
-				<p class="position" id="position"><i class="fa-solid fa-laptop-code">&nbsp;&nbsp;</i><span>Position : Web developer </span></p>
+				<p class="name" id="name"><i class="fa-regular fa-id-card"></i>&nbsp;&nbsp;Name: Vinay</p>
+				<p class="position" id="position"><i class="fa-solid fa-laptop-code"></i>&nbsp;&nbsp;Position: Web Developer</p>
 				<p class="matter" id="matter">
 					As the Team Lead, I am committed to guiding our talented team towards achieving outstanding results. 
 					I excel in fostering collaboration, facilitating open communication, and driving innovation. 
@@ -69,19 +72,21 @@
 		</div>
 	</div>
 
+	<!-- Responsive Sidebar -->
 	<div class="sidebar" id="sidebar">
 		<div class="navbar" id="navbar">   
 			<i class="fa-solid fa-xmark" id="crossmark" onclick="jyo1()" style="color: #000000;"></i>
-			<img src="../Assests/Logo.png" alt="this is an encrypted message"> 
+			<img src="Assests/Logo.png" alt="Logo"> 
 			<div class="items">
 				<div class="Home"><a href="index.html">Home</a></div>
-				<div class="aboutus"><a href="#about">About us</a></div>
+				<div class="aboutus"><a href="#about">About Us</a></div>
 				<div class="Contact"><a href="ContactPage/contact.html">Contact</a></div>
-				<div class="accounts"><a href="login/loginpage.html">Log out</a></div>
+				<div class="accounts"><a href="login/loginpage.html">Logout</a></div>
 			</div>
 		</div> 
 	</div>
 
+	<!-- Script -->
 	<script src="aboutus/about.js"></script>
 </body>
 </html>
