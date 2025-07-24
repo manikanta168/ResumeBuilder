@@ -115,12 +115,12 @@ Venkatateja=()=>{
         let img = document.getElementById("leftimage");
         img.style.opacity = '1';
         img.style.transition = 'all 0.5s ease';
-        img.src = "../Assests/teja.png";
+        img.src = "../Assests/22P31A05A6(1).png";
         let md = document.getElementById("memberdesignation");
         md.innerHTML="Team Member";
         md.style.transition = 'all 0.5s ease';
         var n = document.getElementById("name");
-        n.innerHTML="Name : K.Naga Venkata Teja";
+        n.innerHTML="Name : V.Manikanta";
         md.style.transition = 'all 0.5s ease';
         let about = document.getElementById("matter");
         about.innerHTML="I thrive in dynamic environments and enjoy working collaboratively with my team to create seamless user experiences. When I am not coding, I love exploring new technologies and staying up-to-date with  industry trends."
