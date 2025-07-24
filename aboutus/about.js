@@ -107,7 +107,7 @@ Supriya=()=>{
     }, 10);
 }
 
-Venkatateja=()=>{
+Manikanta = () => {
     let img = document.getElementById("leftimage");
     img.style.opacity = '0';
     img.style.transition = 'all 0.5s ease';
@@ -117,15 +117,14 @@ Venkatateja=()=>{
         img.style.transition = 'all 0.5s ease';
         img.src = "../Assests/22P31A05A6(1).png";
         let md = document.getElementById("memberdesignation");
-        md.innerHTML="Team Member";
-        md.style.transition = 'all 0.5s ease';
+        md.innerHTML = "Team Member";
         var n = document.getElementById("name");
-        n.innerHTML="Name : V.Manikanta";
-        md.style.transition = 'all 0.5s ease';
+        n.innerHTML = "Name : V.Manikanta";
         let about = document.getElementById("matter");
-        about.innerHTML="I thrive in dynamic environments and enjoy working collaboratively with my team to create seamless user experiences. When I am not coding, I love exploring new technologies and staying up-to-date with  industry trends."
+        about.innerHTML = "I thrive in dynamic environments and enjoy working collaboratively with my team to create seamless user experiences. When I am not coding, I love exploring new technologies and staying up-to-date with  industry trends."
     }, 10);
 }
+
 
 Pr=()=>{
     let img = document.getElementById("leftimage");
